@@ -8,8 +8,24 @@ body {
 
 .line1, .line2 {
   color: #E3E3E3;
+  position: absolute;
 }
 
 .animate {
   color: #E80F00;
+}
+
+.background {
+  position: relative;
+}
+
+.line1 {
+  left: 10em;
+  top: 5em;
+}
+
+.line2 {
+  top: 10em;
+  left: 20em;
+
 }
