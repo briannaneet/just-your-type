@@ -11,7 +11,7 @@ body {
 .line1, .line2 {
   color: #E3E3E3;
   position: absolute;
-  font-family: 'Allan', cursive;
+  font-family: 'Allan', sans-serif;
 }
 
 .animate {
@@ -23,12 +23,12 @@ body {
 }
 
 .line1 {
-  left: 10em;
-  top: 5em;
+  left: 100px;
+  top: 50px;
 }
 
 .line2 {
-  top: 10em;
-  left: 20em;
+  top: 120px;
+  left: 400px;
 
 }
