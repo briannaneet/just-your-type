@@ -2,30 +2,54 @@ body {
   background-color: #161626;
 }
 
-.unit {
-  color: #1F1F2E;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+p {
+  color: #1f1f2e;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  color: #1f1f2e;
 }
 
 .line1, .line2 {
-  color: #E3E3E3;
+  color: #e3e3e3;
   position: absolute;
-  font-family: 'Allan', sans-serif;
+  font-family: Allan, sans-serif;
 }
 
 .animate {
-  color: #E80F00;
+  color: #e80f00;
+  font-family: Montserrat, sans-serif;
   animation: .8s shake infinite alternate;
 }
 
 @keyframes shake {
-0% { transform: skewX(-15deg); }
-5% { transform: skewX(15deg); }
-10% { transform: skewX(-15deg); }
-15% { transform: skewX(15deg); }
-20% { transform: skewX(0deg); }
-100% { transform: skewX(0deg); }
+
+  0% {
+    transform: skewX(-15deg);
+  }
+
+  5% {
+    transform: skewX(15deg);
+  }
+
+  10% {
+    transform: skewX(-15deg);
+  }
+
+  15% {
+    transform: skewX(15deg);
+  }
+
+  20% {
+    transform: skewX(0deg);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+
 }
 
 .background {
